@@ -2,7 +2,6 @@ from langchain.chains import create_extraction_chain, create_extraction_chain_py
 from langchain.chains import create_tagging_chain, create_tagging_chain_pydantic
 from services.llm import load_llm
 from langchain.chat_models import ChatOpenAI
-ChatOpenAI(temperature=0, model="gpt-3.5-turbo")
 
 test_schema = {
     "properties": {
